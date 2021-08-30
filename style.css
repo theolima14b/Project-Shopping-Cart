@@ -1,3 +1,7 @@
+h1 {
+  text-transform: uppercase;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
@@ -55,3 +59,15 @@
   font-size: 16pt;
   text-align: center;
 }
+
+.empty-cart {
+  text-transform: uppercase;
+  padding: 7px;
+}
+
+.total-price {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
