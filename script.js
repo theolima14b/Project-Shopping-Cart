@@ -6,7 +6,7 @@ const currentCartItems = [];
 const currentCartPrices = [];
 
 const removeLoading = () => {
- setTimeout(() => { loading.remove(); }, 1550);
+ setTimeout(() => { loading.remove(); }, 1200);
 };
 
 const localStorageUpdate = () => {
@@ -122,7 +122,7 @@ const getLocalStorage = () => {
 };
 
 window.onload = async () => {
-  createElement(fetchApi(url));
+  setTimeout(() => { createElement(fetchApi(url)); }, 1200);
   getLocalStorage();
   removeLoading();
 };
