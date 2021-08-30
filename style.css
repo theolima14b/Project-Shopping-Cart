@@ -59,15 +59,3 @@ h1 {
   font-size: 16pt;
   text-align: center;
 }
-
-.empty-cart {
-  text-transform: uppercase;
-  padding: 7px;
-}
-
-.total-price {
-  text-transform: uppercase;
-  text-align: center;
-}
-
-
